@@ -20,7 +20,6 @@ body{
     max-width: 1440px;
     width: 100%;
     gap: 96px;
-    background-color: aqua;
 }
 
 
@@ -191,6 +190,8 @@ header{
 }
 
 
+
+
 #main_conteiner{
     display: flex;
     flex-direction: column;
@@ -199,12 +200,16 @@ header{
     gap: 96px;
 }
 
+
+
 #cards_box{
     display: flex;
     height: 456px;
     background-repeat: no-repeat;
     background-image: url(../images/Cards.png);
 }
+
+
 
 
 #logo_text_box{
@@ -217,11 +222,15 @@ header{
 }
 
 
+
+
 #logos_box{
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
+
+
 
 #logo_span{
     color: #535862;
@@ -232,22 +241,136 @@ header{
 }
 
 
+
 .logo_size{
     width: 190px;
     height: 48px;
 }
 
+
+
 #text_info_conteiner{
     display: flex;
     width: 1440px;
     height: 586px;
+    justify-content: center;
+    align-items: center;
     background: #F2EDFF;
 }
+
+
 
 .text_positions{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 20px;
     width: 360px;
     height: 274px;
+}
+
+
+
+#text_pos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    height: 394px;
+}
+
+
+
+#icon_sixe{
+    width: 56px;
+    height: 56px;
+}
+
+
+
+h2{
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+
+
+#little_texstts_box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 394px;
+    gap: 30px;
+}
+
+
+
+#text_text_style{
+    color: #535862;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+.right_left_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 364px;
+    height: 394px;
+    gap: 32px;
+}
+
+
+
+.text_box_style{
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.text_box_span{
+    color: #181D27;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+#management_conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1400px;
+    height: 160px;
+}
+
+
+#management_text_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+h3{
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+
+#purple_text{
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
 }
