@@ -17,7 +17,7 @@ body{
 #full_stack_conteiner{
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
+    max-width: 1400px;
     width: 100%;
     gap: 96px;
 }
@@ -195,6 +195,8 @@ header{
 #main_conteiner{
     display: flex;
     flex-direction: column;
+    max-width: 1400px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     gap: 96px;
@@ -251,7 +253,7 @@ header{
 
 #text_info_conteiner{
     display: flex;
-    width: 1440px;
+    width: 1400px;
     height: 586px;
     justify-content: center;
     align-items: center;
@@ -300,7 +302,7 @@ h2{
 #little_texstts_box{
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
+    max-width: 1400px;
     height: 394px;
     gap: 30px;
 }
@@ -381,7 +383,6 @@ h3{
     height: 700px;
     align-items: flex-end;
     justify-content: space-between;
-    background-color: darkcyan;
 }
 
 #share_text_box{
@@ -392,7 +393,6 @@ h3{
      width: 500px;
      gap: 16px;
      padding: 24px;
-     background-color: bisque;
 }
 
 
@@ -402,4 +402,198 @@ h3{
     background-position: bottom 0px;
     background-repeat: no-repeat;
     background-image: url(../images/Modern_screen_mockup.png);
+}
+
+#cards_conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 1400px;
+    background: #F2EDFF;
+}
+
+#cards_posicions{
+    display: flex;
+    justify-content: space-between;
+    height: 618px;
+    width: 1248px;
+}
+
+
+#cards_text{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+
+#cards_title{
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#card_span{
+    color: #181D27;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+#cards_p{
+    color: #535862;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 440px;
+}
+
+
+#card_pos{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+
+.card_style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 595px;
+    width: 340px;
+    padding: 30px;
+    gap: 32px;
+    border-radius:  16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+
+#diferent_card{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    height: 618px;
+    gap: 32px;
+    width: 340px;
+    border-radius:  16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+
+.card_icon_style{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius:  9999px;
+    background: #F4EBFF;
+}
+
+.card_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.card_title{
+    color: #6941C6;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+.card_number{
+    color: #181D27;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.card_text{
+    color: #535862;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+
+#card_ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 16px;
+}
+
+.card_li_style{
+    display: flex;
+    gap: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.card_button_box{
+    height: 100%;
+    width:  340px;
+    border-top: 1px solid #E9EAEB;
+    background-color:  #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button_style{
+    display: flex;
+    padding:  12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap:  6px;
+    width: 276px;
+    height: 48px;
+    border-radius:  8px;
+    background: #7F56D9;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; 
+}
+
+
+
+.share_title{
+    color: #181D27;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+
+.span_text{
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.share_box{
+    display: flex;
+    color: #6941C6;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; 
 }
